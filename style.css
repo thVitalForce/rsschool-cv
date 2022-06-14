@@ -1,3 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*---------------------------------------*/
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 2480px;
+    display: flex;
+}
+
+.main {
+    width: 66.6%;
+}
+
+.main-content {
+    padding: 100px 100px 700px 100px;
+    background-color: #f1f1f1e3;
+}
+
+.header {
+    margin-bottom: 65px;
+}
+
 h1 {
-    color: rgb(0, 118, 87);
+    font-weight: 700;
+    font-size: 135px;
+    line-height: 156px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 72px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 60px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    background-color: blueviolet;
+    background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    margin-top: 20px;
+    border: solid 2px black;
+    width: 75%;
+    color: #2e2e23;
+    height: 2px;
+
+}
+
+.about {
+    margin-bottom: 35px;
+}
+
+.h4-main {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    padding-left: 40px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    padding-left: 40px;
+    width: 90%;
+    text-align: justify;
+}
+
+.experience {
+    margin-bottom: 35px;
+}
+
+.experience-link {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.education {
+    margin-bottom: 35px;
+}
+
+.kind-edu{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 35px;
+    padding-left: 40px;
+}
+
+.code-examples {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+}
+.code {
+    padding-left: -300px;
+}
+
+.aside {
+    width: 33.4%;
+    height: 100%;
+    color: rgba(163, 171, 171, 0.962);
+    background-color: #211b17f5;
+}
+
+.aside-photo {
+    width: 100%;
+}
+
+.aside-info {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.aside-info-contact {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 85px;
+    padding-top: 50px;
+}
+
+.hr-two {
+    margin-top: 20px;
+    border: solid 2px rgb(194, 194, 194);
+    width: 100%;
+    color: #bebebd;
+    height: 2px;
+}
+
+.aside-info-contact p {
+    margin-bottom: 25px;
+}
+
+.aside-info-contact a{
+    text-decoration: underline;
+    color: rgba(163, 171, 171, 0.962);
+}
+
+.aside-info-skills li{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100px;
+    padding-left: 60px;
+}
+
+.skills {
+    padding-top: 50px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 40px;
+    background-color: blueviolet;
+    background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+}
+
+.aside-info-languages {
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 80px;
+    margin-bottom: 300px;
+}
+
+.aside-info-languages h4{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 40px;
+    background-color: blueviolet;
+    background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
 }
