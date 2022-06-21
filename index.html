@@ -12,64 +12,79 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="container">
+        <div class="main-container">
             <!--White block-->
-            <main class="main">
-                <!--Main content-->
-                <div class="main-content">
-                    <header class="header">
+            <div class="white-container">
+                <header class="header">
+                    <div class="header-name">
                         <h1>Melnichuk Elizaveta</h1>
                         <h2>Full Stack Developer</h2>
-                        <hr>
-                    </header>
+                    </div>
+                    <hr>
+                    <nav class="nav">
+                        <a href="#about">About</a>
+                        <a href="#experience">Work</a>
+                        <a href="#education">Education</a>
+                        <a href="#code-examples">Code</a>
+                    </nav>
+                    <hr>
+                </header>
+                <main class="main">
                     <div class="about">
                         <h3>About me</h3>
-                        <div class="about-text"><p>My goal is to create a quality product and develop in
-                            the direction of creating websites. I don't have a lot of
-                            experience right now.But I'm a fast learner.</p></div>
-                        
+                        <div id="about-text" class="about-text">
+                            <p>My goal is to create a quality product and develop in
+                                the direction of creating websites. I don't have a lot of
+                                experience right now.But I'm a fast learner.</p>
+                        </div>
                     </div>
-                    <div class="experience">
+                    <div id="experience" class="experience">
                         <h3>Work experience</h3>
                         <h4 class="h4-main">HTML Marathon</h4>
-                        <a class="experience-link" href="https://gleaming-churros-f0e485.netlify.app/">https://gleaming-churros-f0e485.netlify.app/</a>
+                        <a class="experience-link"
+                            href="https://gleaming-churros-f0e485.netlify.app/">https://gleaming-churros-f0e485.netlify.app/</a>
                     </div>
-                    <div class="education">
+                    <div id="education" class="education">
                         <h3>Education</h3>
                         <h4 class="h4-main">Vinnytsia State Pedagogical University</h4>
                         <p class="kind-edu">Specialty: Psychology</p>
                         <h4 class="h4-main">Educational platform STEPIK</h4>
                         <p class="kind-edu">Pyton for beginners</p>
                     </div>
-                    <div class="code-examples">
+                    <div id="code-examples" class="code-examples">
                         <h3>Code examples</h3>
                         <code class="code">
                             <pre>
-      num = int(input())
-      total = 0
-      while num > 24:
-        num -= 25
-        total += 1
-      while num > 9:
-        num -= 10
-        total += 1
-      while num > 4:
-        num -= 5
-        total += 1
-      while num > 0:
-        num -= 1
-        total += 1
-      print(total)
+                          num = int(input())
+                          total = 0
+                          while num > 24:
+                            num -= 25
+                            total += 1
+                          while num > 9:
+                            num -= 10
+                            total += 1
+                          while num > 4:
+                            num -= 5
+                            total += 1
+                          while num > 0:
+                            num -= 1
+                            total += 1
+                          print(total)
                             </pre>
                         </code>
                     </div>
-                </div>
-            </main>
+                </main>
+                <footer class="footer">
+                    <div><img class="logo" src="../rsschool-cv-rsschool-cv-html/photo/logo_rs.svg" alt="logo_rsschool"></div>
+                    <div><p class="footer-num">2022</p></div>
+                    <div><img class="logo" src="../rsschool-cv-rsschool-cv-html/photo/git.png"alt=""></div>
+                </footer>
+            </div>
             <!--Sidebar block-->
             <aside class="aside">
                 <div class="aside-content">
                     <div ->
-                        <img class="aside-photo" src="../rsschool-cv/photo/photo1.jfif" alt="Avatar">
+                        <img class="aside-photo" src="../rsschool-cv-rsschool-cv-html/photo/photo1.jfif" alt="Avatar">
                     </div>
                     <div class="aside-info">
                         <div class="aside-info-contact">
